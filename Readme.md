@@ -1,3 +1,9 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [MainWindow.xaml](./CS/MinimalisticReportPreviewDemo/MainWindow.xaml)
+* **[MainWindow.xaml.cs](./CS/MinimalisticReportPreviewDemo/MainWindow.xaml.cs)**
+<!-- default file list end -->
 # How to use XtraReports in a WPF application
 
 
