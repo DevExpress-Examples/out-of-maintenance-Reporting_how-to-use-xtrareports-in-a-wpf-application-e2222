@@ -45,7 +45,7 @@ Namespace MinimalisticReportPreviewDemo
                 New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "Products.ProductName"), _
                 New DevExpress.XtraReports.UI.XRBinding("Bookmark", Nothing, "Products.ProductName") _
             })
-            Me.xrLabel1.Font = New System.Drawing.Font("Arial", 9.75F)
+            Me.xrLabel1.Font = New DevExpress.Drawing.DXFont("Arial", 9.75F)
             Me.xrLabel1.LocationFloat = New DevExpress.Utils.PointFloat(10.00001F, 10.00001F)
             Me.xrLabel1.Name = "xrLabel1"
             Me.xrLabel1.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F)
@@ -83,7 +83,7 @@ Namespace MinimalisticReportPreviewDemo
             ' xrLabel2
             ' 
             Me.xrLabel2.Bookmark = "Home"
-            Me.xrLabel2.Font = New System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold)
+            Me.xrLabel2.Font = New DevExpress.Drawing.DXFont("Arial", 9.75F, DevExpress.Drawing.DXFontStyle.Bold)
             Me.xrLabel2.LocationFloat = New DevExpress.Utils.PointFloat(10.00001F, 10.00001F)
             Me.xrLabel2.Name = "xrLabel2"
             Me.xrLabel2.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F)
@@ -98,7 +98,7 @@ Namespace MinimalisticReportPreviewDemo
             Me.DataAdapter = Me.productsTableAdapter
             Me.DataMember = "Products"
             Me.DataSource = Me.nwindDataSet1
-            Me.Margins = New System.Drawing.Printing.Margins(49, 51, 48, 48)
+            Me.Margins = New DevExpress.Drawing.DXMargins(49, 51, 48, 48)
             Me.Version = "10.2"
             DirectCast(Me.nwindDataSet1, System.ComponentModel.ISupportInitialize).EndInit()
             DirectCast(Me, System.ComponentModel.ISupportInitialize).EndInit()
